@@ -9,7 +9,7 @@ namespace bank
     class Staff : Customers
     {
         private int customerID;
-        private int customerID2;
+        private int customerID3;
         public Staff(int newcustomerID)
         {
             customerID = newcustomerID;
