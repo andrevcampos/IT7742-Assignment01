@@ -1,0 +1,17 @@
+C:\Users\acam201\source\repos\Bank Account\Bank Account\bin\Debug\net6.0-windows\Bank Account.exe
+C:\Users\acam201\source\repos\Bank Account\Bank Account\bin\Debug\net6.0-windows\Bank Account.deps.json
+C:\Users\acam201\source\repos\Bank Account\Bank Account\bin\Debug\net6.0-windows\Bank Account.runtimeconfig.json
+C:\Users\acam201\source\repos\Bank Account\Bank Account\bin\Debug\net6.0-windows\Bank Account.dll
+C:\Users\acam201\source\repos\Bank Account\Bank Account\bin\Debug\net6.0-windows\Bank Account.pdb
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.csproj.AssemblyReference.cache
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank_Account.Form1.resources
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.csproj.GenerateResource.cache
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.AssemblyInfoInputs.cache
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.AssemblyInfo.cs
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.csproj.CoreCompileInputs.cache
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.dll
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\refint\Bank Account.dll
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.pdb
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.genruntimeconfig.cache
+C:\Users\acam201\source\repos\Bank Account\Bank Account\obj\Debug\net6.0-windows\ref\Bank Account.dll
