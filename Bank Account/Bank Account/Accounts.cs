@@ -41,6 +41,7 @@ namespace Bank_Account
             get { return balance; }
             set { balance = value; }
         }
+
         public void Deposit(int amount)
         {
             int newbalance = balance + amount;
@@ -73,7 +74,7 @@ namespace Bank_Account
             return "(ID:" + AccountID.ToString() + ") " + accountType;
         }
 
-        
+
     }
     public class Everyday : Account
     {
