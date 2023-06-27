@@ -26,30 +26,54 @@ namespace Bank_Account
             accountType = newAccountType;
             balance = newBalance;
         }
-        private int GetAccountID
+        public int GetAccountID
         {
             get { return AccountID; }
             set { AccountID = value; }
         }
-        private string GetAccountType
+        public string GetAccountType
         {
             get { return accountType; }
             set { accountType = value; }
         }
-        private int GetBalance
+        public int GetBalance
         {
             get { return balance; }
             set { balance = value; }
         }
-        public virtual string Info()
+        public void Deposit(int amount)
         {
-            return accountType + " " + AccountID.ToString() + ", Balance: " + balance;
+            int newbalance = balance + amount;
+            balance = newbalance;
         }
+        public void Withdrawal(int amount)
+        {
+            int newbalance = balance - amount;
+            balance = newbalance;
+        }
+        public virtual string AccountName()
+        {
+            return "(ID:" + AccountID.ToString() + ") " + accountType;
+        }
+        public virtual int Balance()
+        {
+            return balance;
+        }
+        public abstract int GetFees();
+        public abstract int GetInterest();
+        public abstract string GetInterestrandom();
+        public abstract int GetOverdraft();
+
         public override string ToString()
         {
-            return Info();
+            return AccountName();
+        }
+        public virtual string FullInfo()
+        {
+            return "(ID:" + AccountID.ToString() + ") " + accountType;
         }
 
+        
     }
     public class Everyday : Account
     {
@@ -62,29 +86,50 @@ namespace Bank_Account
         public Everyday(int newbalance) : base("Everyday", newbalance)
         {
         }
+        public override string FullInfo()
+        {
+            return base.FullInfo() + "; Balance: " + base.Balance();
+        }
+
+        public override int GetFees(){return 0;}
+        public override int GetInterest(){return 0;}
+        public override string GetInterestrandom(){return "n/a";}
+        public override int GetOverdraft(){return 0;}
+
+        
     }
     public class Inverstiment : Account
     {
         private string accountType;
+        private int interestmin = 10;
+        private int interestmax = 20;
         private int fees;
-        //interest is varied
-        public Inverstiment(int newFee) : base("Inverstiment")
+  
+        public Inverstiment() : base("Inverstiment")
         {
-            fees = newFee;
         }
         public Inverstiment(int newFee, int newbalance) : base("Inverstiment", newbalance)
         {
             fees = newFee;
         }
-        private int GetFees
+        public override int GetFees()
         {
-            get { return fees; }
-            set { fees = value; }
+            return fees;
         }
-
-        public override string Info()
+        public override int GetInterest()
         {
-            return accountType + base.Info() + "; Fee: $" + fees;
+            Random rnd = new Random();
+            int randomnumber = rnd.Next(interestmin, interestmax);
+            return randomnumber;
+        }
+        public override int GetOverdraft() { return 0; }
+        public override string GetInterestrandom()
+        {
+            return "(Varied) " + interestmin.ToString() + "% - " + interestmax.ToString() + "%";
+        }
+        public override string FullInfo()
+        {
+            return base.FullInfo() + ", Interest Rate:" + GetInterest() + "; Fee: $" + fees + "; Balance: " + base.Balance();
         }
     }
 
@@ -107,24 +152,22 @@ namespace Bank_Account
             interest = newInterest;
             overdraft = newOverdraft;
         }
-        private int GetFees
+        public override int GetFees()
         {
-            get { return fees; }
-            set { fees = value; }
+            return fees;
         }
-        private int GetInterest
+        public override int GetInterest()
         {
-            get { return interest; }
-            set { interest = value; }
+            return interest;
         }
-        private int GetOverdraft
+        public override int GetOverdraft()
         {
-            get { return overdraft; }
-            set { overdraft = value; }
+            return overdraft;
         }
-        public override string Info()
+        public override string GetInterestrandom() { return "n/a"; }
+        public override string FullInfo()
         {
-            return accountType + base.Info() + ", Interest Rate:" + interest + "%; Overdraft Limit: " + overdraft + "; Fee: $" + fees;
+            return base.FullInfo() + ", Interest Rate: " + interest + "%; Overdraft Limit: $" + overdraft + "; Fee: $" + fees + "; Balance: " + base.Balance();
         }
     }
 }
