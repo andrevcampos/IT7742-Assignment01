@@ -1,0 +1,15 @@
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\bin\Debug\net6.0\IT7742-Assignment01.exe
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\bin\Debug\net6.0\IT7742-Assignment01.deps.json
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\bin\Debug\net6.0\IT7742-Assignment01.runtimeconfig.json
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\bin\Debug\net6.0\IT7742-Assignment01.dll
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\bin\Debug\net6.0\IT7742-Assignment01.pdb
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\obj\Debug\net6.0\IT7742-Assignment01.csproj.AssemblyReference.cache
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\obj\Debug\net6.0\IT7742-Assignment01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\obj\Debug\net6.0\IT7742-Assignment01.AssemblyInfoInputs.cache
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\obj\Debug\net6.0\IT7742-Assignment01.AssemblyInfo.cs
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\obj\Debug\net6.0\IT7742-Assignment01.csproj.CoreCompileInputs.cache
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\obj\Debug\net6.0\IT7742-Assignment01.dll
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\obj\Debug\net6.0\refint\IT7742-Assignment01.dll
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\obj\Debug\net6.0\IT7742-Assignment01.pdb
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\obj\Debug\net6.0\IT7742-Assignment01.genruntimeconfig.cache
+C:\Users\GGPC\IT7742-Assignment01\IT7742-Assignment01\IT7742-Assignment01\obj\Debug\net6.0\ref\IT7742-Assignment01.dll

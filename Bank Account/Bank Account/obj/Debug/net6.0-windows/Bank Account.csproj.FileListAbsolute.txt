@@ -32,3 +32,5 @@ C:\Users\GGPC\IT7742-Assignment01\Bank Account\Bank Account\obj\Debug\net6.0-win
 C:\Users\GGPC\IT7742-Assignment01\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.pdb
 C:\Users\GGPC\IT7742-Assignment01\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank Account.genruntimeconfig.cache
 C:\Users\GGPC\IT7742-Assignment01\Bank Account\Bank Account\obj\Debug\net6.0-windows\ref\Bank Account.dll
+C:\Users\GGPC\IT7742-Assignment01\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank_Account.CustomerCP.resources
+C:\Users\GGPC\IT7742-Assignment01\Bank Account\Bank Account\obj\Debug\net6.0-windows\Bank_Account.Start.resources
